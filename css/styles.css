@@ -3,15 +3,14 @@
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
-  --accent-color: ;
+  --accent-color: #404bbf;
+  --basic-background-color: #fff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
-
-  /* background-color: ;
-  color: ; */
+  background-color: var(--basic-background-color);
 }
 
 .list {
@@ -50,21 +49,21 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
-.contacts-item {
+.contacts-link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  color: var(--primary-text-color);
+  color: #434455;
 }
 
-.contacts-email:hover,
-.contacts-email:focus {
-  color: #404bbf;
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
 }
 
 /* Main */
@@ -96,7 +95,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-color);
 }
 
 /* Features */
@@ -143,7 +142,7 @@ body {
 }
 
 .team-card {
-  background-color: #fff;
+  background-color: var(--basic-background-color);
 }
 
 .team-name {
@@ -201,7 +200,7 @@ body {
 
 .filters-btn:hover,
 .filters-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-color);
   color: #fff;
 }
 
