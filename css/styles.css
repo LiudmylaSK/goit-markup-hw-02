@@ -24,7 +24,7 @@ body {
 /* Header */
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -52,6 +52,10 @@ body {
   color: var(--accent-color);
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts-link {
   font-style: normal;
   font-size: 16px;
@@ -70,6 +74,10 @@ body {
 
 /* Hero */
 
+.hero {
+  background-color: #2e2f42;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -83,7 +91,7 @@ body {
 
 .hero-btn {
   cursor: pointer;
-
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -188,6 +196,7 @@ body {
 .filters-btn {
   cursor: pointer;
 
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
